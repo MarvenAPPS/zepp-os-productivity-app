@@ -1,0 +1,29 @@
+{
+  "name": "zepp-os-productivity-app",
+  "version": "1.0.0",
+  "description": "Zepp OS V3 Productivity App for Amazfit Balance Round - Multi-question alarms with points tracking",
+  "main": "index.js",
+  "scripts": {
+    "dev": "zeus dev",
+    "build": "zeus build",
+    "preview": "zeus preview",
+    "login": "zeus login",
+    "bridge": "zeus bridge",
+    "status": "zeus status"
+  },
+  "keywords": [
+    "zepp-os",
+    "amazfit",
+    "productivity",
+    "alarm",
+    "smartwatch",
+    "v3-api"
+  ],
+  "author": "Marven (MarvenAPPS)",
+  "license": "MIT",
+  "devDependencies": {
+    "@zeppos/zeus-cli": "latest",
+    "@zeppos/zml": "latest",
+    "@zeppos/device-types": "latest"
+  }
+}

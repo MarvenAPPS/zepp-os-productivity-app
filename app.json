@@ -1,0 +1,39 @@
+{
+  "app": {
+    "appId": 1111748283,
+    "appName": "Productivity Boost",
+    "appVersion": "1.0.0",
+    "permissions": [
+      "device:os.bg_service",
+      "device:os.notification",
+      "device:os.vibrator"
+    ]
+  },
+  "module": {
+    "page": {
+      "pages": [
+        "pages/index",
+        "pages/add-question",
+        "pages/add-alarm",
+        "pages/manage-alarms",
+        "pages/manage-questions",
+        "pages/alarm-response",
+        "pages/affirmation-display",
+        "pages/points-summary",
+        "pages/settings"
+      ]
+    },
+    "app-service": {
+      "services": [
+        "services/alarm-service"
+      ]
+    }
+  },
+  "platforms": [
+    {
+      "name": "amazfit-balance",
+      "deviceSource": 516
+    }
+  ],
+  "designWidth": 480
+}
